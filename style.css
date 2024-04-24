@@ -1,0 +1,243 @@
+/*#1F2023 Gris oscuro
+  #D6E2DE Verde claro
+  #4D6D63 Verde
+  #2B3D37 verde oscuro
+  #4C6A63 verde de imput seleccionado
+  #A6C1B9 verde de fieldset selecionado
+*/
+
+body {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-family: roboto;
+  font-weight: 500;
+  color: #ffff;
+  background-color: #1f2023;
+}
+
+h1 {
+  max-width: 100%;
+  min-width: 40%;
+  margin-top: 10%;
+  margin-bottom: 1%;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border-top: #4d6d63 solid 20px;
+  border-bottom: #4d6d63 solid 20px;
+  border-left: #1f2023 solid 20px;
+  border-right: #1f2023 solid 20px;
+  font-family: poppins;
+  font-weight: 900;
+  font-size: 300%;
+  color: #ffff;
+  text-align: center;
+}
+.datos-per {
+  max-width: 100%;
+  min-width: 40%;
+  margin-top: 5%;
+  padding-left: 12px;
+  padding-right: 12px;
+  color: #4d6965;
+  display: flex;
+  flex-direction: column;
+
+  background-color: #d6e2de;
+  border-radius: 4px;
+  padding-top: 10px;
+  padding-bottom: 35px;
+  margin-bottom: 1px;
+}
+
+.datos-con {
+  max-width: 100%;
+  min-width: 40%;
+  padding-left: 12px;
+  padding-right: 12px;
+  color: #1f2023;
+  display: flex;
+  flex-direction: column;
+  background-color: #d6e2de;
+  border-radius: 4px;
+  padding-top: 10px;
+  padding-bottom: 35px;
+  margin-bottom: 1%;
+}
+
+.datos-act {
+  max-width: 100%;
+  min-width: 40%;
+  padding-left: 12px;
+  padding-right: 12px;
+  color: #1f2023;
+  display: flex;
+  flex-direction: column;
+  background-color: #d6e2de;
+  border-radius: 4px;
+  padding-top: 10px;
+  padding-bottom: 35px;
+  margin-bottom: 8%;
+}
+
+legend {
+  font-variant: small-caps;
+  font-family: popins, sans-serif;
+  font-weight: bold;
+  font-size: 120%;
+  color: #ffff;
+  border-radius: 5px;
+  background-color: #4d6d63;
+  padding: 7px;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.dp {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding-left: 130px;
+  padding-right: 130px;
+  justify-content: space-around;
+  align-self: auto;
+}
+.dc {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding-left: 130px;
+  padding-right: 130px;
+  justify-content: space-around;
+  align-self: auto;
+}
+.sex {
+  text-align: center;
+}
+.titulo {
+  display: flex;
+  justify-content: center;
+}
+label {
+  margin-bottom: 8px;
+}
+.input {
+  text-align: right;
+  margin: 10px;
+  padding: 1px;
+}
+.botones {
+  font-family: popins;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20%;
+}
+.afiliacion {
+  border: solid 1px #4d6d63;
+  height: 50px;
+  border-radius: 4px;
+  background-color: #2b3d37;
+  color: #a6c1b9;
+  font-size: 100%;
+  font-family: popins, sans-serif;
+  font-weight: 700;
+  margin: 5px;
+  margin-right: 4%;
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.restablecer {
+  border: solid 1px #4d6d63;
+  height: 50px;
+  border-radius: 4px;
+  background-color: #2b3d37;
+  color: #a6c1b9;
+  font-size: 90%;
+  font-family: popins, sans-serif;
+  font-weight: 600;
+  margin: 5px;
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.acepto {
+  margin-bottom: 2%;
+}
+.novedades {
+  margin-bottom: 2%;
+}
+.campo {
+  font-weight: 400;
+}
+.ac-interesan {
+  font-size: 15px;
+}
+.datos-per:hover {
+  background-color: #a6c1b9;
+}
+.datos-con:hover {
+  background-color: #a6c1b9;
+}
+.datos-act:hover {
+  background-color: #a6c1b9;
+}
+.restablecer:hover {
+  background-color: #a6c1b9;
+  color: #4d6d63;
+}
+.afiliacion:hover {
+  background-color: #a6c1b9;
+  color: #4d6d63;
+}
+#lbl-nombre:focus {
+  color: #d6e2de;
+  background-color: #4c6a63;
+}
+#lbl-apellido:focus {
+  color: #d6e2de;
+  background-color: #4c6a63;
+}
+#lbl-documento:focus {
+  color: #d6e2de;
+  background-color: #4c6a63;
+}
+#lbl-descripcion:focus {
+  color: #d6e2de;
+  background-color: #4c6a63;
+}
+#lbl-telefono:focus {
+  color: #d6e2de;
+  background-color: #4c6a63;
+}
+#lbl-email:focus {
+  color: #d6e2de;
+  background-color: #4c6a63;
+}
+legend:hover {
+  background-color: #2b3d37;
+}
+textarea {
+  resize: vertical;
+}
+.punteado {
+  border-top: dotted #d6e2de;
+  border-width: 21px;
+  height: 140px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: -100px;
+  margin-right: 30%;
+  margin-left: 30%;
+}
+form{
+  width: 60%;
+}
+
